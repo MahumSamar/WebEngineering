@@ -1,0 +1,1141 @@
+<!-- Name: Mahum Samar
+CMS: 290647
+Class: BSCS-9B
+Web Engineering -->
+
+<!-- used tables, nested tables, internal and inline css 
+font-family, size, color, image, anchor tags etc. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBC - Homepage</title>
+    <style>
+        table,
+        th,
+        td,
+        tr {
+            width: 100%;
+            padding: 10px;
+        }
+
+        body {
+            /* for body  */
+            background-color: rgb(230, 230, 230);
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        th,
+        td {
+            width: auto;
+        }
+
+        td {
+            border: 1px solid rgb(185, 184, 184);
+        }
+
+        .ad {
+            text-align: right;
+        }
+
+        table {
+            /* general formating for table  */
+            width: 1250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .sideColumn {
+            /* one of side column css  */
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: rgb(58, 55, 55);
+            text-shadow: 2px 2px 5px black;
+            color: white;
+
+        }
+
+        .achTag {
+            /* for writing on image */
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+            text-align: center;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .achTag2 {
+            /* for writing on image */
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            vertical-align: bottom;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .achTag3 {
+            /* for nav bar */
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            vertical-align: bottom;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .achTag4 {
+            /* for all anchor tags */
+            color: black;
+            text-decoration: none;
+            font-size: 22px;
+            vertical-align: bottom;
+        }
+
+        .navBar {
+            /* nav bar table  */
+            background-color: black;
+            border: white;
+        }
+
+        .smallImg {
+            /* for small images */
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .grayTable {
+            /* making alternate tables gray  */
+            background-color: rgb(212, 212, 212);
+        }
+    </style>
+</head>
+
+<body>
+    <table style="font-family: Arial, Helvetica, sans-serif;">
+        <!-- the top most menu bar having links to original pages  -->
+        <tr class="navBar">
+            <th><a href="https://www.bbc.com/" class="achTag3"> BBC</a></th>
+            <th><a href="https://account.bbc.com/signin?realm=%2F&clientId=Account&context=homepage&ptrt=https%3A%2F%2Fwww.bbc.com%2F&userOrigin=HOMEPAGE_GNL&isCasso=false&action=sign-in&redirectUri=https%3A%2F%2Fsession.bbc.com%2Fsession%2Fcallback%3Frealm%3D%2F&service=IdSignInService&nonce=hPqGyFFI-FCFOor9pzsGTQbHwEuab9H6Md0E"
+                    class="achTag3">
+                    Sign In</a></th>
+            <th><a href="https://www.bbc.com/" class="achTag3"> Home</a></th>
+            <th><a href="https://www.bbc.com/news" class="achTag3"> News</a></th>
+            <th><a href="https://www.bbc.com/sport" class="achTag3"> Sport</a></th>
+            <th><a href="https://www.bbc.com/reel" class="achTag3"> Reel</a></th>
+            <th><a href="https://www.bbc.com/worklife/?referer=https%3A%2F%2Fwww.bbc.com%2F" class="achTag3">
+                    Worklife</a></th>
+            <th><a href="http://www.bbc.com/travel?referer=https%3A%2F%2Fwww.bbc.com%2F" class="achTag3"> Travel</a>
+            </th>
+            <th><a href="https://www.bbc.com/future/?referer=https%3A%2F%2Fwww.bbc.com%2F" class="achTag3"> Future</a>
+            </th>
+        </tr>
+
+        <table class="grayTable">
+            <tr>
+                <td class="ad" colspan="11">Advertisement</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://images.unsplash.com/photo-1612831197310-ff5cf7a211b6?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                        alt="computer ad" width="600" height="100px" style="padding-left: 300px;">
+                </td>
+            </tr>
+        </table>
+
+    </table>
+
+    <table>
+        <!-- 1st table containing rowspan -->
+        <!-- images are used as backgorunf os that text can be writen on it -->
+        <tr style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            <th colspan="2" style="text-align: left;">
+                <h3>Welcome to BBC.com</h3>
+            </th>
+            <td style="text-align: right; color: gray;">Friday, 12 March</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" style="background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/0BE2/production/_117524030_1371a493-7f96-49fe-88f5-8f61f5e6fe84.jpg); 
+            background-size: 100% 100% ; background-repeat: no-repeat ; width: 650px; height: 300px; padding: 20px;">
+                <a href="https://www.bbc.com/news/world-latin-america-56355861" target="_blank" class="achTag">
+                    Covid-19: Brazil surge reaches new level as daily deaths pass 2,000
+                </a>
+            </td>
+
+            <td style="background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/7622/production/_117524203_warrenbuffett-2.jpg);
+            background-size: 100% 100% ; background-repeat: no-repeat ; width: 250px; height: 100px; padding: 20px;">
+                <a href="https://www.bbc.com/news/business-56355992" class="achTag2">
+                    <p><b>Warren Buffett finally joins exclusive $100bn club</b></p>
+                </a>
+            </td>
+            <td style="background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/31D8/production/_117506721_texa_leaguecity_afp_gettyimages-1230987777.jpg);
+            background-size: 100% 100% ; background-repeat: no-repeat ; width: 250px; height: 100px; padding: 20px;">
+                <a href="https://www.bbc.com/news/world-us-canada-56297329" class="achTag2">
+                    <p><b>Is Texas ending lockdown too soon?</b></p>
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="background-image: url(https://ychef.files.bbci.co.uk/1280x720/p0993p60.webp);
+            background-size: 100% 100% ; background-repeat: no-repeat ; width: 250px; height: 100px; padding: 20px;">
+                <a href="https://www.bbc.com/news/world-us-canada-56297329" class="achTag2">
+                    <p><b>The couples who split tasks more fairly</b></p>
+                </a>
+            </td>
+
+            <td style="background-image: url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80);
+            background-size: 100% 100% ; background-repeat: no-repeat ; width: 250px; height: 100px; padding: 20px;">
+                <a href="https://www.bbc.com/future/bespoke/follow-the-food/the-farms-being-run-from-space/"
+                    class="achTag2">
+                    <p><b>Farming's last great revolution</b></p>
+                </a>
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table class="grayTable">
+        <!-- image external links are used   -->
+        <!-- images and text are used as links so all are written inside the anchor tag  -->
+        <tr>
+            <th colspan="4" style="text-align: left;">
+                <h3>News</h3>
+            </th>
+        </tr>
+        <tr>
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/world-asia-56327764" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/61F0/production/_117527052_mediaitem117497064.jpg"
+                        width="250px" height="140px" alt="Myanmar's military">
+                    <p><b>Army accuses Suu Kyi of taking $600,000 and gold</b></p>
+                    <p>Myanmar's military alleges the overthrown leader took illegal payments, but gives no evidence.
+                    </p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/world-latin-america-56355861" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2C6C/production/_117527311_1f0cee6d-5117-467c-a4dc-c8e5845b4e97.jpg"
+                        width="250px" height="140px" alt="Covid-19 a pandemic">
+                    <p><b>One year since WHO declared Covid-19 a pandemic</b></p>
+                    <p>More than 2.5 million people have died from the disease, across nearly 200 countries since it
+                        emerged.</p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/live/uk-56357497" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/512/cpsprodpb/vivo/live/images/2021/3/11/dd4497cd-8f91-4ebc-9dbd-166cc06c1fb4.jpg"
+                        width="250px" height="140px" alt="Brazil Covid surge">
+                    <p><b>Brazil Covid surge reaches critical new peak</b></p>
+                    <p>The country records more than 2,000 Covid-related deaths in a single day for the first time.</p>
+                </a>
+            </td>
+
+            <td rowspan="2">
+                Advertisement
+                <img src="https://images.unsplash.com/photo-1519677704001-6d410c3ef07e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                    width="250px" height="140px" alt="ad">
+            </td>
+
+        </tr>
+
+        <tr>
+            <th colspan="3" style="text-align: left;">
+                <h3>Sports</h3>
+                </td>
+        </tr>
+
+        <tr>
+            <td class="smallImg">
+                <a href="https://www.bbc.com/sport/football/56335495" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/16A3C/production/_117523729_gettyimages-1231635565-2.jpg"
+                        width="250px" height="140px" alt="spirited Barca">
+                    <p><b>PSG hold off spirited Barca to advance</b></p>
+                    <p>Paris St-Germain held off a spirited Barcelona side to reach the quarter-finals of the Champions
+                        League with a 5-2 win on aggregate.</p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/sport/mixed-martial-arts/56276628" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/28C8/production/_117504401_ruqsana.jpg"
+                        width="250px" height="140px" alt="Muay Thai">
+                    <p><b>She had to train in secret - and became world champion</b></p>
+                    <p>Muay Thai world champion. Dutiful daughter. Fastest girl in school. ME sufferer. Wife. Architect.
+                        It
+                        is surprisingly difficult to categorise Ruqsana Begum.
+                    </p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/sport/rugby-union/56359986" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/683A/production/_117528662_gettyimages-1289927887.jpg"
+                        width="250px" height="140px" alt="England's Malins">
+                    <p><b>England's Malins to start against France
+                        </b></p>
+                    <p>Max Malins will make his first start for England after being named at full-back for Saturday's
+                        Six
+                        Nations match with France at Twickenham.</p>
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <!-- nested tabel used  -->
+            <table>
+                <th colspan="4" style="text-align: left; text-transform: uppercase;">Singapore Weather</th>
+                <tr>
+                    <td class="smallImg">
+                        <b>THU</b>
+                        <p>24C</p>
+                    </td>
+                    <td class="smallImg">
+                        <b>FRI</b>
+                        <br>
+                        31C
+                        <br>
+                        23C
+                    </td>
+                    <td class="smallImg">
+                        <b>SAT</b>
+                        <br>
+                        31C
+                        <br>
+                        23C
+                    </td>
+                    <td class="smallImg">
+                        <b>SUN</b>
+                        <br>
+                        31C
+                        <br>
+                        24C
+                    </td>
+                </tr>
+            </table>
+        </tr>
+    </table>
+
+    <table style="background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80);
+     text-shadow: 2px 2px 5px white;">
+        <tr>
+            <th colspan="3" style="text-align: left;">
+                <h3>REEL</h3>
+                <button style="float: right">Visit Reel</button>
+            </th>
+        </tr>
+
+        <tr>
+            <td colspan="3">The most amazing video from the BBC</td>
+        </tr>
+
+        <tr>
+            <td class="smallImg">
+                <a href="https://www.bbc.com/reel/video/p091hwg1/an-unlikely-hero-in-the-fight-against-climate-change"
+                    class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1595600566063-2863388012be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" alt="ingredient in beer">
+                    <p style="background-color: white;"><b>How an ingredient in beer is helping eat CO2</b></p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/reel/video/p098mgm9/how-to-become-the-person-everyone-comes-to-for-advice"
+                    class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1500565534308-0db60f7116f3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" alt="succeed in every conversation">
+                    <p style="background-color: white;"><b>Four simple hacks to succeed in every conversation</b></p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/reel/video/p09927rx/the-microcosm-and-the-macrocosm-of-frida-and-diego"
+                    class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1511405889574-b01de1da5441?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" alt="open marriage">
+                    <p style="background-color: white;"><b>The iconic couple with a controversial open marriage</b></p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="4" style="text-align: left;">
+                <h3>Asian News</h3>
+            </th>
+        </tr>
+
+        <tr>
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/world-asia-china-56356046" class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1591189309340-323e78efaee0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" height="160px" alt="Hong Kong elections">
+                    <p><b>China approves plan to control Hong Kong elections</b></p>
+                    <p>Critics say the electoral reforms will effectively wipe out any remaining opposition when
+                        enacted.
+                    </p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/av/world-asia-56356050" class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1527235882674-8f8b0f7102dd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" height="160px" alt="Myanmar Catholic nun">
+                    <p><b>Myanmar Catholic nun: 'Kill me instead'</b></p>
+                    <p>A Catholic nun who kneeled in front of armed police in Myanmar speaks to the BBC.</p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/av/world-asia-56344142" class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1610780757769-d46802dc2675?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="250px" height="160px" alt="Japan earthquake">
+                    <p><b>Japan earthquake: The day 'tomorrow didn't come'
+                        </b></p>
+                    <p>Ten years on from Japan’s triple disaster, a survivor remembers the day his entire family
+                        disappeared.</p>
+                </a>
+            </td>
+
+            <td class="smallImg">
+                <a href="https://www.bbc.com/news/world-asia-56356212" class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1511190454573-a0a937616e1f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+                        width="250px" height="160px" alt="Malaysian court">
+                    <p><b>Malaysian court rules Christians can use 'Allah'
+                        </b></p>
+                    <p>The issue of non-Muslims using the word to refer to God had previously sparked tensions and
+                        violence.
+                    </p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table class="grayTable">
+        <tr>
+            <th style="text-align: left;">
+                <h3>Editor's Picks</h3>
+            </th>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="smallImg">
+                <a href="http://www.bbc.com/travel/story/20210310-bolivias-little-known-tribal-kingdom?referer=https%3A%2F%2Fwww.bbc.com%2F"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x640/p096dnh4.jpg" width="800px"
+                        alt="Bolivia's mountains">
+                    <p><b>A kingdom hidden in Bolivia's mountains</b></p>
+                    <p>It remained largely unknown by the outside world for nearly 200 years
+                    </p>
+                </a>
+            </td>
+
+            <td rowspan="3" class="smallImg">
+                <!-- nested table  -->
+                <table style="width: 225px;">
+                    <tr>
+                        <td>
+                            <a href="https://www.bbc.com/news/health-56365422" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/DD80/production/_117540765_gettyimages-92531090.jpg"
+                                    width="250px" height="160px" alt="Twins peak">
+                                <p><b>Twins peak with more born than ever before</b></p>
+                                <p>One in every 42 children is born a twin and much has changed over the past 30 years,
+                                    a report finds.</p>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="https://www.bbc.com/news/world-europe-56357760" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/15DEE/production/_117528598_den.jpg"
+                                    width="250px" height="160px" alt="blood clots">
+                                <p><b>'No indication' Oxford jab linked to blood clots</b></p>
+                                <p>The EU's medicines regulator reassures states after several countries suspended use
+                                    of the vaccine.</p>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="https://www.bbc.com/news/av/world-africa-56365847" class="achTag4" target="_blank">
+                                <img src="https://images.unsplash.com/photo-1595561579181-263fe6175b73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                    width="250px" height="160px" alt="terror in Mozambique">
+                                <p><b>Running from terror in Mozambique</b></p>
+                                <p>
+                                    A militant Islamist insurgency in north-east Mozambique has forced half a million
+                                    people
+                                    to flee for fear of beheadings and abductions.</p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.com/worklife/article/20210302-tragic-optimism-the-antidote-to-toxic-positivity"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p098ht1q.webp" width="250px" height="140px"
+                        alt="toxic positivity">
+                    <p><b>The antidote to toxic positivity</b></p>
+                    <p>Why 'tragic optimism' can help you cope better than always staying sunny</p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/future/article/20210309-why-some-people-can-deal-with-the-cold"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p0994cc2.webp" width="250px" height="140px"
+                        alt="handle the cold">
+                    <p><b>Why some people can handle the cold
+                        </b></p>
+                    <p>One gene gives a clue as to why some triathletes succeed.</p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/culture/article/20210310-the-birdcage-at-25-a-pioneering-moment-in-mainstream-cinema"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p0998mz4.webp" width="250px" height="140px"
+                        alt="Robin Williams">
+                    <p><b>Robin Williams’ most revolutionary film</b></p>
+                    <p>25 years on, how gay comedy The Birdcage broke boundaries</p>
+                </a>
+            </td>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.com/news/world-europe-56355444" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/4990/production/_117523881_gettyimages-470094310.jpg"
+                        width="250px" height="140px" alt="Cassette tape">
+                    <p><b>Cassette tape inventor Lou Ottens dies aged 94
+                        </b></p>
+                    <p>The Dutch engineer's invention transformed the way people listened to music
+                    </p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/news/explainers-51047186" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/950D/production/_110575183_harrymeghancanadahouse.jpg"
+                        width="250px" height="140px" alt="Harry and Meghan">
+                    <p><b>Where do Harry and Meghan get their money?</b></p>
+                    <p>The couple say they struck commercial deals to fund security after being financially cut off</p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/news/business-56334012" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/9C7C/production/_117506004_gettyimages-1304636416.jpg"
+                        width="250px" height="140px" alt="Hollywood to food">
+                    <p><b>'I went from Hollywood glamour to food donations'</b></p>
+                    <p>The Los Angeles awards season workers who have had to find new jobs</p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table
+        style="background-image: url(https://images.unsplash.com/photo-1610028877801-6e6cafc845e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80); color: white">
+        <tr>
+            <th colspan="3" style="text-align: left;">
+                <h3>Future Planet</h3>
+                <button style="float: right">Visit Future Planet</button>
+            </th>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="smallImg">Solutions for a sustainable world</td>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.com/future/article/20210303-geothermal-the-immense-volcanic-power-beneath-our-feet"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p098q3jj.webp" width="325px" height="200px"
+                        alt="Hell's Gate">
+                    <p style="background-color: white;"><b>The immense power of Hell's Gate</b></p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/future/article/20210302-could-plastic-roads-make-for-a-smoother-ride"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p098hwmd.webp" width="325px" height="200px"
+                        alt="india's roads">
+                    <p style="background-color: white;"><b>India's revolutionary sustainable roads</b></p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/future/article/20210225-lake-urmia-the-resurrection-of-irans-most-famous-salt-lake"
+                    class="achTag4" target="_blank">
+                    <img src="https://ychef.files.bbci.co.uk/1280x720/p0981q0j.webp" width="325px" height="200px"
+                        alt="once-dying lake">
+                    <p style="background-color: white;"><b>The return of once-dying lake</b></p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>CREATIVITY COLLECTIVE</th>
+            <th>TECHNOLOGY OF BUSINESS</th>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.com/reel/video/p097jnj4/the-utopian-town-built-by-8-000-people-in-the-desert"
+                    class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1545510367-96d860fda1fc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                        width="510px" height="350px" alt="utopian town">
+                    <p><b>The utopian town built by 8,000 people in the desert</b></p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/news/business-56237988" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2BCA/production/_117501211_e6c7eecf-d581-42d3-8439-a23c91305bf0.jpg"
+                        width="510px" height="350px" alt="riral Sweden">
+                    <p><b>Shops return to riral Sweden but are now staff-free</b></p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td style="background-color: rgb(221, 55, 55); width: 300px;">
+                <a href="https://www.bbc.co.uk/sounds/play/live:bbc_world_service" class="achTag4" target="_blank">BBC
+                    WORLD SERVICE</a>
+            </td>
+
+            <td style="background-color: gray;">
+                <a href="https://www.bbc.co.uk/programmes/p002vsxt" class="achTag4" target="_blank"
+                    style="color: white;">ON AIR: Newsday</a>
+            </td>
+        </tr>
+    </table>
+
+    <table class="grayTable">
+        <tr>
+            <td class="smallImg">
+                <!-- nested table  -->
+                <!-- side column made using nested column  -->
+                <table style="width: 250px; margin-left: 0%; ">
+                    <tr>
+                        <th colspan="2" style="text-align: left; background-color: rgb(221, 55, 55);">More around the
+                            BBC</th>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2" style="text-align: left;  background-color: rgb(221, 55, 55);">FROM OUR
+                            CORRESPONDENTS</th>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/technology-56350362" class="achTag4" target="_blank"
+                                style="color: white;">
+                                Bounty hunter hackers
+                                earn $40m thanks to pandemic
+                                <br>
+                                <i>By Joe Tidy</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/business-56344287" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px">
+                                Airport border queues at 'unacceptable level'
+                                <br>
+                                <i>By Caroline Davies</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/business-56328863" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px">Which
+                                countries will
+                                recover fastest from Covid?
+                                <br><i>By Faisal Islam</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/uk-56338476" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px"> 'Meghan's
+                                experiences are not
+                                shocking to us'
+                                <br><i>By Joice Etutu & Hazel Shearing</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/technology-56335948" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px">Burnt
+                                Banksy artwork sold
+                                as token sparks backlash
+                                <br><i>By Christina Criddle</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/world-africa-56321789" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px"> The
+                                kisnapped woman
+                                who defied Boko Haram
+                                <br><i>By Mayeni Jones</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/science-environment-56326246" class="achTag4"
+                                target="_blank" style="color: white; font-size: 18px">
+                                Winchcombe
+                                meteorite is first UK find in 30 years
+                                <br><i>By Jonathan Amos</i>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="sideColumn">
+                            <a href="https://www.bbc.com/news/uk-scotland-56318364" class="achTag4" target="_blank"
+                                style="color: white; font-size: 18px">Women's work during the
+                                pandemic
+                                <br><i>By Douglas Fraser</i>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+            <td class="smallImg" style="padding-top: 0%;">
+                <table style="width: 750px;">
+                    <tr>
+                        <td colspan="3">
+                            <a href="https://www.bbc.com/news/technology-56351693" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/179BE/production/_117520769_whatsubject.jpg"
+                                    width="800px" height="400px" alt="electric-shock dog collar">
+                                <p><b>Anger over electric-shock dog collar YouTube clips
+                                    </b></p>
+                                <p>Pet owners should seek professional advice rather than following these videos, the
+                                    Blue Cross says.
+                                </p>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="https://www.bbc.com/news/world-latin-america-56098334" class="achTag4"
+                                target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/FE4D/production/_117010156_1edf0901-9388-470c-9242-3eadb725ed06.jpg"
+                                    width="250px" height="160px" alt="abortion law">
+                                <p><b>Can one country's abortion law change a continent?</b></p>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.com/news/newsbeat-56349129" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/3649/production/_117079831_jamesnewman_197.jpg"
+                                    width="250px" height="160px" alt="James Newman">
+                                <p><b>James Newman reveals UK Eurovision entry</b></p>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.com/news/science-environment-56351501" class="achTag4"
+                                target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1506A/production/_117522168_riverstrust.jpg"
+                                    width="250px" height="160px" alt="sewage leaks">
+                                <p><b>Hundreds of sewage leaks detected thanks to AI
+                                    </b></p>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="https://www.bbc.com/news/technology-56355504" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/140FF/production/_115957128_1ed5a3e3-0ba6-48c4-abdf-ad95c47336d8.jpg"
+                                    width="250px" height="160px" alt="anti-trust lawsuit">
+                                <p><b>Facebook asks judge to reject anti-trust lawsuit</b></p>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.com/news/health-56334902" class="achTag4" target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A97A/production/_115168334_tv064076239.jpg"
+                                    width="250px" height="160px" alt="pandemic">
+                                <p><b>Don't think pandemic is over, Whitty warns</b></p>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.com/news/entertainment-arts-56358997" class="achTag4"
+                                target="_blank">
+                                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/79C4/production/_117527113_gettyimages-635003864.jpg"
+                                    width="250px" height="160px" alt="Adele">
+                                <p><b>Adele finalises divorce with joint custody of son</b></p>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>NEW TECH ECONOMY</th>
+            <TH>FOLLOW TH EFOOD</TH>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.com/news/business-56278411" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/2DF8/production/_117386711_mbnaianchor.png"
+                        width="510px" height="350px" alt="Deepfake">
+                    <p><b>'Deepfake is th efuture of content creation'</b></p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/future/bespoke/follow-the-food/how-to-grow-food-in-a-concrete-jungle/"
+                    class="achTag4" target="_blank">
+                    <img src="https://images.unsplash.com/photo-1597045315639-9df6c171fb69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                        width="510px" height="350px" alt="food in concrete jungle">
+                    <p><b>How to grow food in concrete jungle</b></p>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table class="grayTable">
+        <tr>
+            <th colspan="2" style="text-align: left;">
+                <h3>World in pictures</h3>
+            </th>
+        </tr>
+
+        <tr class="smallImg">
+            <td>
+                <a href="https://www.bbc.co.uk/programmes/articles/51v3xl6YkGyrqs5pPzxlF2H/pic-of-the-season-winter-2020-21"
+                    class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/images/ic/1008xn/p098h18g.jpg" width="510px" height="350px"
+                        alt="Weather Watchers">
+                    <p><b>Weather Watchers Pic of th eseason winter competition</b></p>
+                </a>
+            </td>
+
+            <td>
+                <a href="https://www.bbc.com/news/uk-england-leeds-56270731" class="achTag4" target="_blank">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/16DCF/production/_117374639_2020-07-0208.09.061-339.jpg"
+                        width="510px" height="350px" alt="love with Bradford">
+                    <p><b>"It's like falling in love with Bradford again"</b></p>
+                </a>
+            </td>
+        </tr>
+
+        <table>
+            <tr class="smallImg">
+                <td>
+                    <a href="https://www.bbc.com/news/world-australia-56307356" class="achTag4" target="_blank">
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/BA97/production/_117476774_tv066073509.jpg"
+                            width="325px" height="200px" alt="Mardi Gras">
+                        <p><b>In pictures: Mardi Gras marches on in Sydney</b></p>
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://www.bbc.com/news/world-africa-56278224" class="achTag4" target="_blank">
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/182E8/production/_117384099_tv065995527.jpg"
+                            width="325px" height="200px" alt="Drapes and drive-ins">
+                        <p><b>Africa's top shots: Drapes and drive-ins</b></p>
+                    </a>
+                </td>
+
+                <td>
+                    <a href="https://www.bbc.com/news/in-pictures-56152069" class="achTag4" target="_blank">
+                        <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/11A83/production/_117332327_f01f882e-f3e1-4d38-9008-ed93fbc69e6b.png"
+                            width="325px" height="200px" alt="women using art">
+                        <p><b>The women using art to explain Covid-19 science</b></p>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </table>
+
+    <table class="grayTable" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;">
+        <tr>
+            <th colspan="8" style="text-align: left;">
+                <h4>BBC IN OTHER LANGUAGES</h4>
+            </th>
+        </tr>
+
+        <tr style="text-align: left;">
+            <th>Urdu</th>
+            <th>Vietnamese</th>
+            <th>Indonesian</th>
+            <th>Japanese</th>
+            <th colspan="4">More Languages</th>
+        </tr>
+
+        <tr class="smallImg" style="text-align: left;">
+            <td>
+                <li style="list-style-type: none;"><a href="https://www.bbc.com/urdu/pakistan-56356939" class="achTag4"
+                        target="_blank">’پڑوسی ہمیں
+                        بہانے سے لے کر گئے اور افغانستان میں فروخت کر دیا‘</a> </li>
+            </td>
+
+            <td>
+                <li style="list-style-type: none;"><a href="https://www.bbc.com/vietnamese/world-56362010"
+                        class="achTag4" target="_blank"> 'Tôi được
+                        lệnh bắn người biểu tình - tôi từ chối'</a></li>
+            </td>
+
+            <td>
+                <li style="list-style-type: none;"><a href="https://www.bbc.com/indonesia/dunia-56357976"
+                        class="achTag4" target="_blank"> Meghan dan
+                        Pangeran Harry: Tak lagi kerja sebagai bangsawan, lalu
+                        dari mana mereka dapat uang?</a></li>
+            </td>
+
+            <td>
+                <li style="list-style-type: none;"><a href="https://www.bbc.com/japanese/features-and-analysis-56342997"
+                        class="achTag4" target="_blank"> 福島原発事故から10年　なお残る影響</a></li>
+            </td>
+
+            <td>
+                <ul style="padding: 0;">
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/arabic" class="achTag4"
+                            target="_blank"> Arabic</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/zhongwen/simp" class="achTag4"
+                            target="_blank"> Chinese</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/indonesia" class="achTag4"
+                            target="_blank"> Indonesian</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/kyrgyz" class="achTag4"
+                            target="_blank"> Kyrgyz</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/persian" class="achTag4"
+                            target="_blank"> Persian</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/somali" class="achTag4"
+                            target="_blank"> Somali</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/turkce" class="achTag4"
+                            target="_blank"> Turkish</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/vietnamese" class="achTag4"
+                            target="_blank"> Vietnamese</a></li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="padding: 0;">
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/azeri" class="achTag4"
+                            target="_blank"> Azeri</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/afrique" class="achTag4"
+                            target="_blank"> French</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/japanese" class="achTag4"
+                            target="_blank"> Japanese</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/marathi" class="achTag4"
+                            target="_blank"> Marathi</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/portuguese" class="achTag4"
+                            target="_blank"> Portuguese</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/mundo" class="achTag4"
+                            target="_blank"> Spanish</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/ukrainian" class="achTag4"
+                            target="_blank"> Ukrainian</a></li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="padding: 0;">
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/bengali" class="achTag4"
+                            target="_blank"> Bangla</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/hausa" class="achTag4"
+                            target="_blank"> Hausa</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/gahuza" class="achTag4"
+                            target="_blank"> Kinyawanda</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/nepali" class="achTag4"
+                            target="_blank"> Nepali</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/russian" class="achTag4"
+                            target="_blank"> Russian</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/swahili" class="achTag4"
+                            target="_blank"> Swahili</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/urdu" class="achTag4"
+                            target="_blank"> Urdu</a></li>
+                </ul>
+            </td>
+
+            <td>
+                <ul style="padding: 0;">
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/burmese" class="achTag4"
+                            target="_blank"> Burmese</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/hindi" class="achTag4"
+                            target="_blank"> Hindi</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/gahuza" class="achTag4"
+                            target="_blank"> Kirundi</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/pashto" class="achTag4"
+                            target="_blank"> Pashto</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/sinhala" class="achTag4"
+                            target="_blank"> Sinhala</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/tamil" class="achTag4"
+                            target="_blank"> Tamil</a></li>
+                    <li style="list-style-type: none;"><a href="https://www.bbc.com/uzbek" class="achTag4"
+                            target="_blank"> Uzbek</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <table style="width: 100%; background-color: rgb(83, 83, 83); color: white; font-family: Arial, Helvetica, sans-serif;">
+        <!-- footer made using nested tables -->
+        <!-- external links are made -->
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <th colspan="9" style="text-align: left;">Explore the BBC</th>
+                    </tr>
+
+                    <tr>
+                        <td colspan="9">
+                            <table class="smallImg">
+                                <tr>
+                                    <td><a href="https://www.bbc.com/" class="achTag4" target="_blank"
+                                            style="color: white;"> Home</a></td>
+                                    <td><a href="https://www.bbc.com/news" class="achTag4" target="_blank"
+                                            style="color: white;"> News</a></td>
+                                    <td><a href="https://www.bbc.com/sport" class="achTag4" target="_blank"
+                                            style="color: white;"> Sport</a></td>
+                                    <td><a href="https://www.bbc.com/reel" class="achTag4" target="_blank"
+                                            style="color: white;"> Reel</a></td>
+                                    <td><a href="https://www.bbc.com/worklife/?referer=https%3A%2F%2Fwww.bbc.com%2F"
+                                            class="achTag4" target="_blank" style="color: white;"> Worklife</a>
+                                    </td>
+                                    <td><a href="http://www.bbc.com/travel?referer=https%3A%2F%2Fwww.bbc.com%2F"
+                                            class="achTag4" target="_blank" style="color: white;"> Travel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="https://www.bbc.com/future/?referer=https%3A%2F%2Fwww.bbc.com%2F"
+                                            class="achTag4" target="_blank" style="color: white;"> Future</a></td>
+                                    <td><a href="https://www.bbc.com/culture/?referer=https%3A%2F%2Fwww.bbc.com%2F"
+                                            class="achTag4" target="_blank" style="color: white;"> Culture</a>
+                                    </td>
+                                    <td><a href="https://www.bbc.com/culture/music" class="achTag4" target="_blank"
+                                            style="color: white;"> Music</a></td>
+                                    <td><a href="https://www.bbc.co.uk/schedules/p00fzl9m" class="achTag4"
+                                            target="_blank" style="color: white;"> TV</a>
+                                    </td>
+                                    <td><a href="https://www.bbc.com/weather" class="achTag4" target="_blank"
+                                            style="color: white;"> Weather</a></td>
+                                    <td><a href="https://www.bbc.co.uk/sounds" class="achTag4" target="_blank"
+                                            style="color: white;"> Sounds</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr class="smallImg">
+                        <td>
+                            <a href="https://www.bbc.co.uk/usingthebbc/terms/" class="achTag4" target="_blank"
+                                style="color: white;"> Terms of Use
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.co.uk/aboutthebbc" class="achTag4" target="_blank"
+                                style="color: white;"> About the BBC
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.co.uk/usingthebbc/privacy/" class="achTag4" target="_blank"
+                                style="color: white;"> Privacy Policy
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.co.uk/usingthebbc/cookies/" class="achTag4" target="_blank"
+                                style="color: white;"> Cookies
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.bbc.co.uk/accessibility/" class="achTag4" target="_blank"
+                                style="color: white;"> Accessibility Help
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.co.uk/iplayer/guidance" class="achTag4" target="_blank"
+                                style="color: white;"> Parental Guidance
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbc.co.uk/contact" class="achTag4" target="_blank"
+                                style="color: white;"> Contact the BBC
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.bbc.co.uk/newsletters/email/zbdmwty" class="achTag4" target="_blank"
+                                style="color: white;"> Get Personalised Newsletters
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.bbcglobalnews.com/" class="achTag4" target="_blank"
+                                style="color: white;"> Advertise with us
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="smallImg">
+                        <td colspan="9" style="text-align: left;">
+                            <a href="https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/"
+                                class="achTag4" target="_blank" style="color: white;"> AdChoices/
+                                Do Not Sell My Info
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr class="smallImg">
+                        <td colspan="9">Copyright © 2021 BBC. The BBC is not responsible for the content of external
+                            sites. Read about our approach to external linking.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
